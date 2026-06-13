@@ -2,6 +2,8 @@
 
 Internal Admatrix workflow for converting Lovable exports into WordPress landing pages.
 
+The repository exists so Admatrix team members can clone one shared workflow, run the converter locally, and create WordPress draft pages without copying instructions from chat.
+
 The project supports three builder lanes:
 
 - `flatsome`: use WordPress Page + Flatsome `page-blank.php`.
@@ -23,6 +25,16 @@ npm run deploy:page -- `
 ```
 
 This creates a WordPress draft page, uploads media, inlines CSS, preserves animated diagrams, and assigns the Flatsome blank page template.
+
+## GitHub Flow
+
+1. Put each Lovable export or built `dist` into `input/<campaign>` locally.
+2. Choose exactly one builder lane: Flatsome, Elementor, or Gutenberg.
+3. Run the converter/deployer to create a WordPress draft page.
+4. Review staging output and QA checklist.
+5. Commit improvements to this repo only after they are reusable for future campaigns.
+
+The small files under `wordpress-plugin/lovable-wp-suite/apps/example-app/` are only placeholders proving the shortcode plugin structure. They are not a campaign output and should be replaced by real app builds when Flow B is used.
 
 ## Install
 
