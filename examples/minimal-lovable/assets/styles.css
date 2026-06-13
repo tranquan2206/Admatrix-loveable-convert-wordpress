@@ -1,0 +1,54 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #18212f;
+  background: #f6f8fc;
+}
+
+body {
+  margin: 0;
+}
+
+.hero {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 48px;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  box-sizing: border-box;
+}
+
+.hero h1 {
+  max-width: 760px;
+  font-size: clamp(40px, 7vw, 76px);
+  line-height: 0.98;
+  margin: 12px 0 24px;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+}
+
+.eyebrow {
+  color: #5b50e6;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+button {
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 22px;
+  color: white;
+  background: #5b50e6;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
