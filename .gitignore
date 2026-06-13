@@ -1,0 +1,22 @@
+node_modules/
+input/
+output/
+.env
+.env.*
+*.log
+*.tmp
+tmp/
+coverage/
+dist/
+build/
+
+# Local credentials and generated reports
+credentials/
+*.local.json
+wordpress-admatrix-mcp.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
