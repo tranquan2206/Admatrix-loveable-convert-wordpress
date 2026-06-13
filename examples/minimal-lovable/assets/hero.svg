@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-labelledby="title">
+  <title id="title">Landing page preview</title>
+  <rect width="640" height="520" rx="40" fill="#e5e1ff"/>
+  <rect x="64" y="72" width="512" height="376" rx="24" fill="#fff"/>
+  <rect x="96" y="112" width="240" height="28" rx="14" fill="#5b50e6"/>
+  <rect x="96" y="170" width="420" height="18" rx="9" fill="#c8c4ee"/>
+  <rect x="96" y="204" width="360" height="18" rx="9" fill="#dddaf5"/>
+  <rect x="96" y="262" width="160" height="52" rx="26" fill="#5b50e6"/>
+  <circle cx="470" cy="344" r="70" fill="#ffcc7a"/>
+</svg>
