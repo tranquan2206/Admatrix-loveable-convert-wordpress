@@ -1,0 +1,12 @@
+{
+  "name": "example-app",
+  "version": "1.0.0",
+  "entry_js": "app.js",
+  "entry_css": "app.css",
+  "mount_id": "lovable-root-example-app",
+  "uses_cf7": false,
+  "tracking_events": [
+    "lovable_app_view",
+    "lovable_form_submit_success"
+  ]
+}
