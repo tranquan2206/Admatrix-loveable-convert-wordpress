@@ -1,0 +1,24 @@
+<div class="lovable-cf7-form">
+  <div class="form-row">
+    <label>Há» vÃ  tÃªn [text* your-name autocomplete:name]</label>
+  </div>
+  <div class="form-row">
+    <label>Email [email* your-email autocomplete:email]</label>
+  </div>
+  <div class="form-row">
+    <label>Sá»‘ Ä‘iá»‡n thoáº¡i [tel* your-phone]</label>
+  </div>
+  <div class="form-row">
+    <label>CÃ´ng ty [text your-company]</label>
+  </div>
+
+  [hidden campaign_slug default:{{CAMPAIGN_SLUG}}]
+  [hidden utm_source]
+  [hidden utm_medium]
+  [hidden utm_campaign]
+  [hidden calculated_total]
+
+  <div class="form-row submit-row">
+    [submit "Gá»­i Ä‘Äƒng kÃ½"]
+  </div>
+</div>
