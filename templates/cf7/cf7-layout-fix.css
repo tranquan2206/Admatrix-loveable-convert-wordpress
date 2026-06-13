@@ -1,0 +1,16 @@
+.lovable-cf7-form p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.lovable-cf7-form span.wpcf7-form-control-wrap {
+  display: block !important;
+  width: 100% !important;
+}
+
+.lovable-cf7-form input,
+.lovable-cf7-form textarea,
+.lovable-cf7-form select {
+  width: 100%;
+  box-sizing: border-box;
+}
